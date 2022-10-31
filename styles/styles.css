@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color:  #ddf1eb;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0
+}
+.top-left{
+    margin-left: 5rem
+}
+.top-left span{
+    font-size: 20px;
+    font-weight: 300;
+}
+.top-left a{
+    margin-left: 15px;
+    color: black;
+}
+.top-right{
+    margin-right: 5rem
+}
+.top-right a{
+    margin-right: 15px;
+}
+.top-right a i{
+    color: black;
+    opacity: .8;
+}
+.img{
+    text-align: center;
+    padding: 5rem 0;
+}
