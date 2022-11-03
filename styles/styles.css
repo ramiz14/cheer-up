@@ -43,3 +43,57 @@ header{
     text-align: center;
     padding: 5rem 0;
 }
+nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav a{
+    margin-right: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+nav i{
+    opacity: .6;
+}
+.box{
+    width: 22%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.gallery img{
+    height: 500px;
+}
+.box img{
+    width: 100%; 
+    transform: scale(1);   
+    transition: 1s;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.box a{
+    position: absolute;
+    color: white;
+    left: 50%;
+    bottom: 1%;
+    transform: translate(-50%);
+}
+.box a p{
+    font-size: 20px;
+    margin: 10px;
+}
+.box a h4{
+    font-size: 25px;
+    width: 350px;
+    font-weight: 100;
+}
+.box:hover  img{
+    transform: scale(1.2);
+}
+hr{
+    margin-bottom: 20px;
+    opacity: .3;
+}
